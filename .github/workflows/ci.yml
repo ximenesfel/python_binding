@@ -7,3 +7,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Build the stack
         run: docker-compose up -d
+      - name: Run test
+        run: docker-compose run python_binding_biding_1 /usr/bin/python3 test.py
