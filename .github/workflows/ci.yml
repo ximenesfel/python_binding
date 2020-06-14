@@ -8,4 +8,4 @@ jobs:
       - name: Build the stack
         run: docker-compose up -d
       - name: Run test
-        run: docker-compose run biding /usr/bin/python3 /root/test.py
+        run: docker-compose run biding /usr/bin/python3 -m unittest discover /root/test -t /root

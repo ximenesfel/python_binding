@@ -3,4 +3,4 @@
 	name = Felipe Ximenes
 
 [credential]
-	helper = "!f() { /root/.vscode-server/bin/ff915844119ce9485abfe8aa9076ec76b5300ddd/node /tmp/vscode-remote-containers-04df399eabebf7c6f3eebed41459363e0775fe4a.js $*; }; f"
+	helper = "!f() { /root/.vscode-server/bin/a5d1cc28bb5da32ec67e86cc50f84c67cc690321/node /tmp/vscode-remote-containers-b333d7d44dab8ac46eef26c936bc325580de38e8.js $*; }; f"
